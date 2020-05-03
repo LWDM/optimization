@@ -1,0 +1,7 @@
+platform:ios,'8.0'
+target:DemoNormal do
+    source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
+    pod 'SDWebImage'
+    pod 'AFNetworking'
+    pod 'Masonry'
+ end

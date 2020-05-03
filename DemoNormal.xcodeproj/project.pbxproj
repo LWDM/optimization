@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18479EE62586DBD019CA501C /* libPods-DemoNormal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C161691D4A2DF50A148EBD91 /* libPods-DemoNormal.a */; };
 		CD0DA013245B0D28003B9B80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0DA012245B0D28003B9B80 /* AppDelegate.m */; };
 		CD0DA016245B0D28003B9B80 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0DA015245B0D28003B9B80 /* SceneDelegate.m */; };
 		CD0DA019245B0D28003B9B80 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0DA018245B0D28003B9B80 /* ViewController.m */; };
@@ -16,6 +17,11 @@
 		CD0DA024245B0D28003B9B80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0DA023245B0D28003B9B80 /* main.m */; };
 		CD0DA02E245B0D29003B9B80 /* DemoNormalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0DA02D245B0D29003B9B80 /* DemoNormalTests.m */; };
 		CD0DA039245B0D29003B9B80 /* DemoNormalUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0DA038245B0D29003B9B80 /* DemoNormalUITests.m */; };
+		CD0DA048245B1176003B9B80 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0DA047245B1176003B9B80 /* Model.m */; };
+		CD0DA04B245B15D4003B9B80 /* DemoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0DA04A245B15D4003B9B80 /* DemoCell.m */; };
+		CDE810FA245BF53D00EA0547 /* DemoCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE810F9245BF53D00EA0547 /* DemoCell2.m */; };
+		CDE810FD245BFAAB00EA0547 /* DemoCellLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE810FC245BFAAB00EA0547 /* DemoCellLayout.m */; };
+		CDE81100245C1A1F00EA0547 /* UIImage+cornerRadious.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE810FE245C1A1E00EA0547 /* UIImage+cornerRadious.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C4CC19F96D583501CDD0E55 /* Pods-DemoNormal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoNormal.debug.xcconfig"; path = "Target Support Files/Pods-DemoNormal/Pods-DemoNormal.debug.xcconfig"; sourceTree = "<group>"; };
+		8F7FE213F0B888C1129E9C04 /* Pods-DemoNormal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoNormal.release.xcconfig"; path = "Target Support Files/Pods-DemoNormal/Pods-DemoNormal.release.xcconfig"; sourceTree = "<group>"; };
+		C161691D4A2DF50A148EBD91 /* libPods-DemoNormal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoNormal.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD0DA00E245B0D28003B9B80 /* DemoNormal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoNormal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD0DA011245B0D28003B9B80 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CD0DA012245B0D28003B9B80 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +63,16 @@
 		CD0DA034245B0D29003B9B80 /* DemoNormalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoNormalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD0DA038245B0D29003B9B80 /* DemoNormalUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoNormalUITests.m; sourceTree = "<group>"; };
 		CD0DA03A245B0D29003B9B80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD0DA046245B1176003B9B80 /* Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		CD0DA047245B1176003B9B80 /* Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		CD0DA049245B15D4003B9B80 /* DemoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoCell.h; sourceTree = "<group>"; };
+		CD0DA04A245B15D4003B9B80 /* DemoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoCell.m; sourceTree = "<group>"; };
+		CDE810F8245BF53D00EA0547 /* DemoCell2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoCell2.h; sourceTree = "<group>"; };
+		CDE810F9245BF53D00EA0547 /* DemoCell2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoCell2.m; sourceTree = "<group>"; };
+		CDE810FB245BFAAB00EA0547 /* DemoCellLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoCellLayout.h; sourceTree = "<group>"; };
+		CDE810FC245BFAAB00EA0547 /* DemoCellLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoCellLayout.m; sourceTree = "<group>"; };
+		CDE810FE245C1A1E00EA0547 /* UIImage+cornerRadious.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+cornerRadious.m"; sourceTree = "<group>"; };
+		CDE810FF245C1A1F00EA0547 /* UIImage+cornerRadious.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+cornerRadious.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18479EE62586DBD019CA501C /* libPods-DemoNormal.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +101,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		168AEF99A0F1A74B81A24AC3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C4CC19F96D583501CDD0E55 /* Pods-DemoNormal.debug.xcconfig */,
+				8F7FE213F0B888C1129E9C04 /* Pods-DemoNormal.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4D6A7488A839F05C01B41E2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C161691D4A2DF50A148EBD91 /* libPods-DemoNormal.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CD0DA005245B0D28003B9B80 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +125,8 @@
 				CD0DA02C245B0D29003B9B80 /* DemoNormalTests */,
 				CD0DA037245B0D29003B9B80 /* DemoNormalUITests */,
 				CD0DA00F245B0D28003B9B80 /* Products */,
+				168AEF99A0F1A74B81A24AC3 /* Pods */,
+				4D6A7488A839F05C01B41E2B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +149,16 @@
 				CD0DA015245B0D28003B9B80 /* SceneDelegate.m */,
 				CD0DA017245B0D28003B9B80 /* ViewController.h */,
 				CD0DA018245B0D28003B9B80 /* ViewController.m */,
+				CD0DA046245B1176003B9B80 /* Model.h */,
+				CD0DA047245B1176003B9B80 /* Model.m */,
+				CD0DA049245B15D4003B9B80 /* DemoCell.h */,
+				CD0DA04A245B15D4003B9B80 /* DemoCell.m */,
+				CDE810F8245BF53D00EA0547 /* DemoCell2.h */,
+				CDE810F9245BF53D00EA0547 /* DemoCell2.m */,
+				CDE810FB245BFAAB00EA0547 /* DemoCellLayout.h */,
+				CDE810FC245BFAAB00EA0547 /* DemoCellLayout.m */,
+				CDE810FF245C1A1F00EA0547 /* UIImage+cornerRadious.h */,
+				CDE810FE245C1A1E00EA0547 /* UIImage+cornerRadious.m */,
 				CD0DA01A245B0D28003B9B80 /* Main.storyboard */,
 				CD0DA01D245B0D28003B9B80 /* Assets.xcassets */,
 				CD0DA01F245B0D28003B9B80 /* LaunchScreen.storyboard */,
@@ -144,6 +193,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD0DA03D245B0D29003B9B80 /* Build configuration list for PBXNativeTarget "DemoNormal" */;
 			buildPhases = (
+				C7220722C4A124692A731271 /* [CP] Check Pods Manifest.lock */,
 				CD0DA00A245B0D28003B9B80 /* Sources */,
 				CD0DA00B245B0D28003B9B80 /* Frameworks */,
 				CD0DA00C245B0D28003B9B80 /* Resources */,
@@ -262,6 +312,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C7220722C4A124692A731271 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemoNormal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CD0DA00A245B0D28003B9B80 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -269,8 +344,13 @@
 			files = (
 				CD0DA019245B0D28003B9B80 /* ViewController.m in Sources */,
 				CD0DA013245B0D28003B9B80 /* AppDelegate.m in Sources */,
+				CDE810FA245BF53D00EA0547 /* DemoCell2.m in Sources */,
 				CD0DA024245B0D28003B9B80 /* main.m in Sources */,
+				CDE81100245C1A1F00EA0547 /* UIImage+cornerRadious.m in Sources */,
 				CD0DA016245B0D28003B9B80 /* SceneDelegate.m in Sources */,
+				CD0DA04B245B15D4003B9B80 /* DemoCell.m in Sources */,
+				CDE810FD245BFAAB00EA0547 /* DemoCellLayout.m in Sources */,
+				CD0DA048245B1176003B9B80 /* Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +517,7 @@
 		};
 		CD0DA03E245B0D29003B9B80 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C4CC19F96D583501CDD0E55 /* Pods-DemoNormal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +535,7 @@
 		};
 		CD0DA03F245B0D29003B9B80 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F7FE213F0B888C1129E9C04 /* Pods-DemoNormal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
